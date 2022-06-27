@@ -18,7 +18,16 @@ interface Props {
   documentaries: Movie[];
 }
 
-const Home = () => {
+const Home = ({
+  netflixOriginals,
+  actionMovies,
+  comedyMovies,
+  documentaries,
+  horrorMovies,
+  romanceMovies,
+  topRated,
+  trendingNow,
+}: Props) => {
   return (
     <div className="relative h-screen bg-gradient-to-b lg:h-[140vh]">
       <Head>
@@ -79,4 +88,3 @@ export const getServerSideProps = async () => {
     },
   };
 };
-
