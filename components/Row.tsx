@@ -1,11 +1,10 @@
 import React, { useRef, useState } from "react";
 import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/solid";
-import { Movie } from "../typings";
 import Thumbnail from "./Thumbnail";
 
 interface Props {
   title: string;
-  movies: Movie[];
+  movies: any[];
 }
 
 function Row({ title, movies }: Props) {
