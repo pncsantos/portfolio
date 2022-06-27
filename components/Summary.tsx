@@ -11,7 +11,8 @@ function Summary() {
           </h1>
         </div>
 
-        <div className="flex-wrap">
+        <div className="flex-wrap text-xs md:text-lg ">
+          <br className="md:hidden" />
           <h3>Adamson University</h3>
           <p>Bachelor of Science in Information Technology (2006 - 2010)</p>
           <p> Graduate with Honours (Cum Laude) </p>
@@ -30,7 +31,8 @@ function Summary() {
           </h1>
         </div>
 
-        <div className="flex-wrap">
+        <div className="flex-wrap text-xs md:text-lg ">
+          <br className="md:hidden" />
           <ul>
             <li>
               • Full blown development and integration for Web and Mobile
@@ -59,7 +61,8 @@ function Summary() {
           </h1>
         </div>
 
-        <div className="flex-wrap">
+        <div className="flex-wrap text-xs md:text-lg">
+          <br className="md:hidden" />
           <h1>
             <i>
               <b>Tech Stacks</b>
