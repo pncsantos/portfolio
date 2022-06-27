@@ -12,7 +12,7 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <main className="relative pl-4 pb-24 lg:space-y-24 ">
+      <main className="relative pb-24 lg:space-y-24">
         <Banner />
         <AboutMe />
         <section className="md:space-y-24">
