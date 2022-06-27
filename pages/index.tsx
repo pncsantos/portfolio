@@ -2,7 +2,6 @@ import Head from "next/head";
 import AboutMe from "../components/AboutMe";
 import Banner from "../components/Banner";
 import Header from "../components/Header";
-import Row from "../components/Row";
 
 const Home = () => {
   return (
@@ -15,10 +14,7 @@ const Home = () => {
       <main className="relative pb-24 lg:space-y-24">
         <Banner />
         <AboutMe />
-        <section className="md:space-y-24">
-          {/* <Row title="Web Projects" movies={[]} />
-          <Row title="Mobile Projects" movies={[]} /> */}
-        </section>
+        <section className="md:space-y-24"></section>
       </main>
       {/* Modal */}
     </div>
