@@ -2,6 +2,7 @@ import Head from "next/head";
 import AboutMe from "../components/AboutMe";
 import Banner from "../components/Banner";
 import Header from "../components/Header";
+import Summary from "../components/Summary";
 
 import { Movie } from "../typings";
 
@@ -18,16 +19,7 @@ interface Props {
   documentaries: Movie[];
 }
 
-const Home = ({
-  netflixOriginals,
-  actionMovies,
-  comedyMovies,
-  documentaries,
-  horrorMovies,
-  romanceMovies,
-  topRated,
-  trendingNow,
-}: Props) => {
+const Home = () => {
   return (
     <div className="relative h-screen bg-gradient-to-b lg:h-[140vh]">
       <Head>
@@ -38,6 +30,8 @@ const Home = ({
       <main className="relative pb-24 lg:space-y-24">
         <Banner />
         <AboutMe />
+        <Summary />
+
         <section className="md:space-y-24"></section>
       </main>
       {/* Modal */}
