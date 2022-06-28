@@ -24,18 +24,6 @@ function FeaturedProjects() {
               textColor="text-black"
               style="ml-4"
             />
-            <Pill
-              title="#responsive"
-              color="[#64ffda]"
-              textColor="text-black"
-              style="ml-4"
-            />
-            <Pill
-              title="#start-ups"
-              color="[#64ffda]"
-              textColor="text-black"
-              style="ml-4"
-            />
           </div>
 
           <div className="py-8 w-full text-center sm:text-base sm:grid sm:grid-flow-col">
@@ -63,18 +51,6 @@ function FeaturedProjects() {
             <Pill title="👾 Mobile Projects" />
             <Pill
               title="#react-native"
-              color="[#64ffda]"
-              textColor="text-black"
-              style="ml-4"
-            />
-            <Pill
-              title="#android"
-              color="[#64ffda]"
-              textColor="text-black"
-              style="ml-4"
-            />
-            <Pill
-              title="#ios"
               color="[#64ffda]"
               textColor="text-black"
               style="ml-4"
