@@ -117,7 +117,7 @@ function Summary() {
           {/* TODO: separate Java and JS */}
           <div>
             <p className="text-sm md:text-lg font-semibold">
-              JavaScript | Web and API Technologies
+              {"JavaScript | Web & API Technologies"}
             </p>
             <ul className="text-xs md:text-sm">
               <li className="p-1">
@@ -146,7 +146,7 @@ function Summary() {
           {/* React Native */}
           <div>
             <p className="text-sm md:text-lg font-semibold">
-              JavaScript | Mobile : React Native | Ionic
+              {"JavaScript | Mobile : React Native & Ionic"}
             </p>
             <ul className="text-xs md:text-sm">
               <li className="p-1">Platforms: Android, IOS</li>
@@ -168,7 +168,7 @@ function Summary() {
 
           <div>
             <p className="text-sm md:text-lg font-semibold">
-              Java | Web and Desktop Technologies
+              {"Java | Web & Desktop Technologies"}
             </p>
             <ul className="text-xs md:text-sm">
               <li className="p-1">Frameworks: Spring, Struts, EJB</li>
