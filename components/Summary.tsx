@@ -1,5 +1,3 @@
-import Pill from "./Pill";
-
 function Summary() {
   return (
     <div className="!mt-0 p-4 text-white">
@@ -45,8 +43,7 @@ function Summary() {
               application
             </li>
             <li>
-              • Conceptualize technologies and design for Web and Mobile
-              application
+              • Conceptualize technologies and design for Software application
             </li>
             <li>• Manage Product Releases and Deployments</li>
             <li>• Code Reviews</li>
@@ -55,7 +52,6 @@ function Summary() {
               • Write modern, performant, maintainable code for a diverse array
               of client and internal projects
             </li>
-            <li>• Mentor junior developers</li>
           </ul>
 
           <br />
@@ -107,8 +103,8 @@ function Summary() {
                 Loggers: Splunk, Bugsnag, Sentry, Catchpoint, Dynatrace
               </li>
               <li className="p-1">
-                Authentication: Facebook, Google, Twilio, Twitter, Auth0, and
-                AWS Amplify
+                Authentication: Facebook, Google, Twilio, Twitter, Auth0, AWS
+                Amplify
               </li>
             </ul>
           </div>
@@ -205,18 +201,16 @@ function Summary() {
                 Firebase SDK: Auhtentication, Database, Remote Config, AdMob
               </li>
               <li className="p-1">
-                Google SD: Maps, Analytics, Authentication, YoutubePlayer, VR
-                - Virtual Reality
+                Google SD: Maps, Analytics, Authentication, YoutubePlayer, VR -
+                Virtual Reality
               </li>
-              <li className="p-1">
-                Payment Gateway: Paypal, Visacheckout SDK
-              </li>
+              <li className="p-1">Payment Gateway: Paypal, Visacheckout SDK</li>
               <li className="p-1">Ads SDK : Offertoro, Ironsource and Fyber</li>
               <li className="p-1">
                 Tools and Libraries: RX Java, Butterknife, UrbanAirship, Gimbal
                 (Geo Fencing), Fabric (Crashlytics), Volley, Websockets,
                 VoiceMod SDK, Graphing Libraries, Push Notifications, Glide,
-                Picasso, Twillio Deeplinking and Material design
+                Picasso, Twillio, Deeplinking, Material design
               </li>
             </ul>
           </div>

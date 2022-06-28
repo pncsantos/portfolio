@@ -1,6 +1,7 @@
 import Head from "next/head";
 import AboutMe from "../components/AboutMe";
 import Banner from "../components/Banner";
+import FeaturedProjects from "../components/FeaturedProjects";
 import Header from "../components/Header";
 import Summary from "../components/Summary";
 
@@ -31,6 +32,7 @@ const Home = () => {
         <Banner />
         <AboutMe />
         <Summary />
+        <FeaturedProjects />
 
         <section className="md:space-y-24"></section>
       </main>

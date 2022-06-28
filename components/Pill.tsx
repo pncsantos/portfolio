@@ -2,10 +2,21 @@ import React from "react";
 
 interface Props {
   title: string;
+  color?: string;
+  textColor?: string;
+  style?: string;
 }
-function Pill({ title }: Props) {
+function Pill({ title, color, textColor, style }: Props) {
   return (
-    <span className="bg-[#64ffda] rounded-lg px-2 text-black mr-1">{title}</span>
+    <span
+      className={`bg-${
+        color ? color : "gray-400"
+      } ${style} text-sm text-shadow-sm rounded-lg md:rounded-xl px-3 py-1 ${
+        textColor ? textColor : "text-white"
+      } `}
+    >
+      {title}
+    </span>
   );
 }
 

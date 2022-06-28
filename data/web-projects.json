@@ -1,0 +1,50 @@
+[
+  {
+    "id": "4",
+    "name": "Pace",
+    "description": "Turn all your purchases into instalments, just the way you like. Elevate the way you pay and shop, with no hidden costs. View Resources. Get Updates.",
+    "tags": "web",
+    "technology": "react",
+    "language": "javascript",
+    "logo":"/pace-web.png",
+    "screenshots": [],
+    "url": "https://pacenow.co/",
+    "featured": true
+  },
+  {
+    "id": "3",
+    "name": "Cartrack",
+    "description": "Easy-to-use platform empowers you to streamline your entire operation from job management to cost analysis with powerful automation and actionable insights.",
+    "tags": "web",
+    "technology": "react",
+    "language": "javascript",
+    "logo":"/cartrack-web.png",
+    "screenshots": [],
+    "url": "https://www.cartrack.sg/",
+    "featured": true
+  },
+  {
+    "id": "2",
+    "name": "Gigco",
+    "description": "Genuine marketplace for the gig economy.",
+    "tags": "web",
+    "technology": "react",
+    "language": "javascript",
+    "logo":"/gigco-web.png",
+    "screenshots": [],
+    "url": "https://www.gigco.work/",
+    "featured": true
+  },
+  {
+    "id": "1",
+    "name": "Posse",
+    "description": "Provids users with the opportunity to discover and share recommendations for food retailers worldwide.",
+    "tags": "web",
+    "technology": "angular",
+    "language": "javascript",
+    "logo":"/posse-web.png",
+    "screenshots": [],
+    "url": "",
+    "featured": true
+  }
+]

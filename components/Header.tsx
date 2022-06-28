@@ -32,7 +32,7 @@ function Header() {
           height="48"
           width="48"
         />
-        <div className="!ml-4 hidden md:flex">
+        <div className="!ml-4 md:flex">
           <span className="headerLink font-semibold">{`PAUL SANTOS`}</span>
         </div>
       </div>

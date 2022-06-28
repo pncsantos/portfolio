@@ -1,0 +1,198 @@
+[
+  {
+    "id": "12",
+    "name": "Pace",
+    "description": "Turn all your purchases into instalments, just the way you like. Elevate the way you pay and shop, with no hidden costs. View Resources. Get Updates.",
+    "tags": "mobile",
+    "technology": "react-native",
+    "language": "javascript",
+    "screenshots": [],
+    "mobileDetails": {
+      "android": {
+        "playstore": ""
+      },
+      "ios": {
+        "appStore": ""
+      }
+    },
+    "logo": "/gigco-web.png"
+  },
+  {
+    "id": "11",
+    "name": "Carpal",
+    "description": "Transforming the way local goods move around in cities by enabling anyone to get any product delivered on the day of purchase.",
+    "tags": "mobile",
+    "technology": "react-native",
+    "language": "javascript",
+    "screenshots": [],
+    "mobileDetails": {
+      "android": {
+        "playstore": ""
+      },
+      "ios": {
+        "appStore": ""
+      }
+    },
+    "logo": "/carpal-mobile.png",
+    "featured": true
+  },
+  {
+    "id": "10",
+    "name": "Burger King (Denmark | Norway)",
+    "description": "Here you can find special offers, see our current promotions and information on our nygrillede burgers.",
+    "tags": "mobile",
+    "technology": "react-native",
+    "language": "javascript",
+    "screenshots": [],
+    "mobileDetails": {
+      "android": {
+        "playstore": "https://play.google.com/store/apps/details?id=dk.burgerking.app&hl=en"
+      },
+      "ios": {
+        "appStore": "https://itunes.apple.com/dk/app/burger-king/id997092551?mt=8"
+      }
+    },
+    "logo": "/bk-mobile.png",
+    "featured": true
+  },
+  {
+    "id": "9",
+    "name": "Gigco",
+    "description": "Gig economy Platform which allows Job Providers and Service Providers to network efficiently.",
+    "tags": "mobile",
+    "technology": "react-native",
+    "language": "javascript",
+    "screenshots": [],
+    "mobileDetails": {
+      "android": {
+        "playstore": "https://play.google.com/store/apps/details?id=com.gigco"
+      },
+      "ios": {
+        "appStore": "https://itunes.apple.com/US/app/id1351199880?mt=8"
+      }
+    },
+    "logo": "/gigco-web.png"
+  },
+  {
+    "id": "8",
+    "name": "SimonSays123Homes",
+    "description": "Propery Application that helps users to engage with Buyers and Sellers with seamless transactions.",
+    "tags": "mobile",
+    "technology": "android-native",
+    "language": "java",
+    "screenshots": [],
+    "mobileDetails": {
+      "android": {
+        "playstore": ""
+      }
+    },
+    "logo": "/gigco-web.png"
+  },
+  {
+    "id": "7",
+    "name": "Hey You",
+    "description": "Australia's favourite order ahead app and never wait in line at your favourite cafe again. With over 1000+ venues available to choose from, your morning coffee or lunch is just a tap away!",
+    "tags": "mobile",
+    "technology": "android-native",
+    "language": "java",
+    "screenshots": [],
+    "mobileDetails": {
+      "android": {
+        "playstore": "https://play.google.com/store/apps/details?id=com.beattheq.android&hl=en_SG&gl=US"
+      }
+    },
+    "logo": "/heyyou-mobile.png",
+    "featured": true
+  },
+  {
+    "id": "6",
+    "name": "Card Queue",
+    "description": "A multi-tenants mobile wallet payment and queuing system.",
+    "tags": "mobile",
+    "technology": "react-native",
+    "language": "javascript",
+    "screenshots": [],
+    "mobileDetails": {
+      "android": {
+        "playstore": ""
+      }
+    },
+    "logo": "/gigco-web.png"
+  },
+  {
+    "id": "5",
+    "name": "Contruction Career",
+    "description": "Assist local talents to find jobs in contructions",
+    "tags": "mobile",
+    "technology": "react-native",
+    "language": "javascript",
+    "screenshots": [],
+    "mobileDetails": {
+      "android": {
+        "playstore": ""
+      }
+    },
+    "logo": "/gigco-web.png"
+  },
+  {
+    "id": "4",
+    "name": "Eqlzr",
+    "description": "Music App for that allows you to amplify your music",
+    "tags": "mobile",
+    "technology": "android-native",
+    "language": "java",
+    "screenshots": [],
+    "mobileDetails": {
+      "android": {
+        "playstore": ""
+      }
+    },
+    "logo": "/eq-mobile.png",
+    "featured": true
+  },
+  {
+    "id": "3",
+    "name": "Wanna Follow",
+    "description": "Stay upto date with all of your artists social media updates on Facebook, Instagram, Twitter and all of the rest is one place.",
+    "tags": "mobile",
+    "technology": "android-native",
+    "language": "java",
+    "screenshots": [],
+    "mobileDetails": {
+      "android": {
+        "playstore": ""
+      }
+    },
+    "logo": "/gigco-web.png"
+  },
+  {
+    "id": "2",
+    "name": "Change Voice",
+    "description": "Change your voice and have fun listening to your modified voice! Record your voice, apply effects, and share them with your friends.",
+    "tags": "mobile",
+    "technology": "android-native",
+    "language": "java",
+    "screenshots": [],
+    "mobileDetails": {
+      "android": {
+        "playstore": ""
+      }
+    },
+    "logo": "/gigco-web.png"
+  },
+  {
+    "id": "1",
+    "name": "Way2Strength",
+    "description": "Lifestyle application that provides daily workout routines for all your main muscle groups. In just a few minutes a day, you can build muscles and keep fitness. All exercises can be performed with just your body weight.",
+    "tags": "mobile",
+    "technology": "android-native",
+    "language": "java",
+    "screenshots": [],
+    "mobileDetails": {
+      "android": {
+        "playstore": ""
+      }
+    },
+    "logo": "/gigco-web.png"
+  }
+]
