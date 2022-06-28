@@ -1,12 +1,12 @@
 function Summary() {
   return (
-    <div className="bg-black !mt-0 p-4 text-black">
-      <div className="flex flex-col bg-white p-4 space-x-8 md:flex-row md:p-8 md:space-x-12">
+    <div className="!mt-0 p-4 text-white">
+      <div className="flex flex-col p-4 space-x-8 md:flex-row md:p-8 md:space-x-12">
         <div className="flex-none w-32 md:ml-40">
           <h1 className="">
             📖{" "}
             <b>
-              <u>EDUCATION</u>
+              <u>Education</u>
             </b>
           </h1>
         </div>
@@ -18,17 +18,18 @@ function Summary() {
             Bachelor of Science in Information Technology (2006 - 2010)
           </p>
           <p className="text-xs md:text-sm">Graduate with Honours</p>
+
+          <br />
+          <hr />
         </div>
       </div>
 
-      <hr />
-
-      <div className="flex flex-col bg-white p-4 space-x-8 md:flex-row md:p-8 md:space-x-12">
+      <div className="flex flex-col p-4 space-x-8 md:flex-row md:p-8 md:space-x-12">
         <div className="flex-none w-32 md:ml-40">
           <h1>
             💻{" "}
             <b>
-              <u>WORK</u>
+              <u>Work</u>
             </b>
           </h1>
         </div>
@@ -48,17 +49,18 @@ function Summary() {
             <li>• Review Codes and test both Frontend and Backend</li>
             <li>• Mentor and help junior developers</li>
           </ul>
+
+          <br />
+          <hr />
         </div>
       </div>
 
-      <hr />
-
-      <div className="flex flex-col bg-white p-4 space-x-8 md:flex-row md:p-8 md:space-x-12">
+      <div className="flex flex-col p-4 space-x-8 md:flex-row md:p-8 md:space-x-12">
         <div className="flex-none w-32 md:ml-40">
           <h1>
             🔥{" "}
             <b>
-              <u>SKILLS</u>
+              <u>Skills</u>
             </b>
           </h1>
         </div>
@@ -69,7 +71,7 @@ function Summary() {
           {/* General */}
           <div>
             <p className="text-sm md:text-lg font-semibold">Tech Stacks</p>
-            <br />
+
             <ul className="text-xs md:text-sm">
               <li>Programming Language: Java and Javascript</li>
               <li>Database: Mongo, Postgre, Mysql, Oracle and Sql server</li>
@@ -92,7 +94,6 @@ function Summary() {
           {/* Web */}
           <div>
             <p className="text-sm md:text-lg font-semibold">Web Technologies</p>
-            <br />
             <ul className="text-xs md:text-sm">
               <li>
                 Frameworks: React.js, Angular.js, Bootstrap, EJB, Play, Spring,
@@ -117,7 +118,6 @@ function Summary() {
             <p className="text-sm md:text-lg font-semibold">
               Mobile Technologies (Javascript - React Native)
             </p>
-            <br />
             <ul className="text-xs md:text-sm">
               <li>Platforms: Android and IOS</li>
               <li>
@@ -138,7 +138,6 @@ function Summary() {
             <p className="text-sm md:text-lg font-semibold">
               Mobile (Java - Android)
             </p>
-            <br />
             <ul className="text-xs md:text-sm">
               <li>DB and ORM: Sqlite, Realm and ActiveAndroid</li>
               <li>IDE: Android Studio and IntelliJ</li>
