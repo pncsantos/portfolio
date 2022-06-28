@@ -1,4 +1,5 @@
 import Image from "next/image";
+import TechLogo from "./TechLogo";
 
 function AboutMe() {
   return (
@@ -15,7 +16,7 @@ function AboutMe() {
 
       <div className="text-white">
         <h1 className="text-l font-bold lg:text-4xl">About Me ⚡</h1>
-        <p className="text-xs mt-1 text-shadow-md md:max-w-4xl md:mt-4 md:text-lg lg:text-lg opacity-60">
+        <p className="text-xs mt-1 text-shadow-md md:max-w-4xl md:mt-4 md:text-lg lg:text-lg opacity-75">
           I'm a{" "}
           <span className="text-[#64ffda] font-semibold italic">
             Software Engineer
@@ -41,6 +42,17 @@ function AboutMe() {
           these days is creating full blown development (Frontend, Backend and
           DevOps).
         </p>
+        <br />
+        <br />
+        <h1 className="text-l font-bold lg:text-4xl">Recent Tech Stacks ⌨️</h1>
+        <div className="grid grid-cols-3 grid-flow-row gap-2 auto-rows-auto mt-1 text-xs text-shadow-md md:mt-4">
+          <TechLogo logo="/es6.png" title="Javascript (ES6+)" />
+          <TechLogo logo="/react.png" title="React | React Native" />
+          <TechLogo logo="/nodejs.png" title="Node JS" />
+          <TechLogo logo="/next.png" title="Next JS" />
+          <TechLogo logo="/aws.png" width={72} title="AWS" />
+          <TechLogo logo="/typescript.png" title="Typescript" />
+        </div>
         {/* <br />
         <h1 className="text-l font-bold lg:text-4xl">Contact Details</h1>
         <p className="max-w-xs text-xs mt-1 text-shadow-md md:mt-4 md:max-w-lg md:text-lg lg:max-w-lg lg:text-lg opacity-60">

@@ -46,8 +46,10 @@ function Summary() {
               application
             </li>
             <li>• Manage Product Releases and Deployments</li>
-            <li>• Review Codes and test both Frontend and Backend</li>
-            <li>• Mentor and help junior developers</li>
+            <li>• Code Reviews</li>
+            <li>• Creates performance test and unit test</li>
+            <li>• Applies best practices and latest code standards</li>
+            <li>• Mentor junior developers</li>
           </ul>
 
           <br />
