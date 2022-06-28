@@ -96,12 +96,20 @@ function Summary() {
               </li>
               <li className="p-1">
                 Dev Tools: Postman, Swagger, Launch Darkly, Fastlane, Buildkite,
+                Blazemeter
               </li>
               <li className="p-1">
                 AWS Tools: EC2, Cloudfront, S3, Route 53, Lambda, ECS, Xray,
                 Dynamo DB
               </li>
               <li className="p-1">Design Tools: Figma, Sketch</li>
+              <li className="p-1">
+                Loggers: Splunk, Bugsnag, Sentry, Catchpoint, Dynatrace
+              </li>
+              <li className="p-1">
+                Authentication: Facebook, Google, Twilio, Twitter, Auth0, and
+                AWS Amplify
+              </li>
             </ul>
           </div>
 
@@ -120,16 +128,41 @@ function Summary() {
                 Frameworks: React.js, Next.js, Node.js, Angular.js
               </li>
               <li className="p-1">IDE: VSCode, Sublime</li>
+              <li className="p-1">Middlewares: Saga, Thunk, Redux Toolkit</li>
+              <li className="p-1">State Management: Redux, MobX</li>
               <li className="p-1">
-                JS Tools and Libraries: React Redux, Lint, MobX, Styled
-                Components, Tailwind, Redux Toolkit, Webpack, Material UI,
-                Express, Thunk, Saga, Storybook
+                Styling Libraries: Styled Components, Tailwind
               </li>
               <li className="p-1">
-                Other tools and libraries: JQuery, HTML, Bootstrap, CSS/Less
-                CSS, Blazemeter
+                Tools and Libraries: Lint, Webpack, Material UI, Express,
+                Storybook, JQuery, HTML, Bootstrap, CSS/Less CSS, Websockets
+                (Pubsub), Google Maps, ESRI, Serverless
               </li>
               <li className="p-1">Payment Gateway: Paypal, Stripe</li>
+              <li className="p-1">Test: Jest, Enzyme</li>
+            </ul>
+          </div>
+
+          <br />
+          <hr />
+          <br />
+
+          {/* React Native */}
+          <div>
+            <p className="text-sm md:text-lg font-semibold">
+              JavaScript | Mobile : React Native | Ionic
+            </p>
+            <ul className="text-xs md:text-sm">
+              <li className="p-1">Platforms: Android, IOS</li>
+              <li className="p-1">IDE: VSCode, Sublime</li>
+              <li className="p-1">Middlewares: Saga, Thunk</li>
+              <li className="p-1">State Management: Redux</li>
+              <li className="p-1">Styling Libraries: Styled Components</li>
+              <li className="p-1">Payment Gateway: Paypal, Stripe</li>
+              <li className="p-1">
+                Tools and Libraries: Firebase, Fabric, React Navigation,
+                Deeplinking (Appsflyer), Push Notifications, Google Maps, Lotte
+              </li>
             </ul>
           </div>
 
@@ -146,28 +179,7 @@ function Summary() {
               <li className="p-1">IDE: Eclipse, IntelliJ</li>
               <li className="p-1">ORM: Hibernate, Jooq, Ibatis</li>
               <li className="p-1">
-                Other tools and libraries: JQuery, HTML, JBoss, Tomcat
-              </li>
-            </ul>
-          </div>
-
-          <br />
-          <hr />
-          <br />
-
-          {/* React Native */}
-          <div>
-            <p className="text-sm md:text-lg font-semibold">
-              Mobile Technologies (JS - React Native)
-            </p>
-            <ul className="text-xs md:text-sm">
-              <li className="p-1">Platforms: Android, IOS</li>
-
-              <li className="p-1">
-                Tools and Libraries: Redux, Redux Thunk, Firebase SDK, Fabric,
-                React Navigation, Deeplinking (Appsflyer) , Push Notifications
-                AWS Amplify, Google Maps and Web Sockets Payment Gateway :
-                [Paypal and Stripe SDK]
+                Tools and libraries: JQuery, HTML, JBoss, Tomcat
               </li>
             </ul>
           </div>
@@ -179,7 +191,7 @@ function Summary() {
           {/* Java */}
           <div>
             <p className="text-sm md:text-lg font-semibold">
-              Mobile (Java - Android)
+              Java | Mobile : Android
             </p>
             <ul className="text-xs md:text-sm">
               <li className="p-1">
@@ -187,15 +199,24 @@ function Summary() {
               </li>
               <li className="p-1">IDE: Android Studio and IntelliJ</li>
               <li className="p-1">
-                Tools and Libraries: Authentication : [Facebook, Google, Twitter
-                and Auth0 SDK] Firebase SDK : [Auhtentication, Database, Remote
-                Config, AdMob] Google SDK : [Maps, Analytics, Authentication,
-                YoutubePlayer, VR - Virtual Reality] Payment Gateway : [Paypal,
-                and Visacheckout SDK] Ads SDK : [Offertoro, Ironsource and
-                Fyber] Other SDK : [RX Java, Butterknife, UrbanAirship, Gimbal
+                Authentication: Facebook, Google, Twitter and Auth0 SDK
+              </li>
+              <li className="p-1">
+                Firebase SDK: Auhtentication, Database, Remote Config, AdMob
+              </li>
+              <li className="p-1">
+                Google SD: Maps, Analytics, Authentication, YoutubePlayer, VR
+                - Virtual Reality
+              </li>
+              <li className="p-1">
+                Payment Gateway: Paypal, Visacheckout SDK
+              </li>
+              <li className="p-1">Ads SDK : Offertoro, Ironsource and Fyber</li>
+              <li className="p-1">
+                Tools and Libraries: RX Java, Butterknife, UrbanAirship, Gimbal
                 (Geo Fencing), Fabric (Crashlytics), Volley, Websockets,
                 VoiceMod SDK, Graphing Libraries, Push Notifications, Glide,
-                Picasso, Twillio Deeplinking and Material design]
+                Picasso, Twillio Deeplinking and Material design
               </li>
             </ul>
           </div>
