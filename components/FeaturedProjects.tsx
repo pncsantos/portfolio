@@ -7,7 +7,7 @@ import Pill from "./Pill";
 
 function FeaturedProjects() {
   return (
-    <div className="flex space-x-0 items-center pl-4 pr-4 space-y-2 py-4 md:space-x-8 md:py-8 md:space-y-4 lg:py-16 lg:pb-12 lg:pl-16">
+    <div className="flex space-x-0 items-center pl-4 pr-4 space-y-2 py-4 md:space-x-8 md:py-4 md:space-y-4 lg:py-16 lg:pb-6 lg:pl-16">
       <div className="hidden md:flex"></div>
 
       <div className="text-white relative w-full">
@@ -17,26 +17,19 @@ function FeaturedProjects() {
         {/* Web Projects */}
         <div className="p-4">
           <div className="flex">
-            <Pill title="👾 Web Projects" />
-            <Pill
-              title="#react"
-              color="[#64ffda]"
-              textColor="text-black"
-              style="ml-4"
-            />
+            <Pill title="👾 Web" />
           </div>
 
           <div className="py-8 w-full text-center sm:text-base sm:grid sm:grid-flow-col">
             {WebProjects.filter((f) => f.featured).map((project) => {
               return (
-                <div className="p-2">
+                <div key={project.id} className="p-2">
                   <Image
-                    key={project.id}
                     src={project.logo}
                     alt={project.name}
-                    className="object-contain cursor-pointer bg-black rounded-2xl"
-                    height="256"
-                    width="256"
+                    className={`object-cover cursor-pointer rounded-2xl`}
+                    height="200"
+                    width="200"
                   />
                 </div>
               );
@@ -48,26 +41,19 @@ function FeaturedProjects() {
         {/* Mobile Projects */}
         <div className="p-4">
           <div className="flex">
-            <Pill title="👾 Mobile Projects" />
-            <Pill
-              title="#react-native"
-              color="[#64ffda]"
-              textColor="text-black"
-              style="ml-4"
-            />
+            <Pill title="👾 Mobile" />
           </div>
 
           <div className="py-8 w-full text-center sm:text-base sm:grid sm:grid-flow-col">
             {MobileProjects.filter((f) => f.featured).map((project) => {
               return (
-                <div className="p-2">
+                <div key={project.id} className="p-2">
                   <Image
-                    key={project.id}
                     src={project.logo}
                     alt={project.name}
                     className="object-contain cursor-pointer bg-black rounded-2xl"
-                    height="256"
-                    width="256"
+                    height="200"
+                    width="200"
                   />
                 </div>
               );

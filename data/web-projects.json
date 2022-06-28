@@ -6,7 +6,7 @@
     "tags": "web",
     "technology": "react",
     "language": "javascript",
-    "logo":"/pace-web.png",
+    "logo": "/pace-web.png",
     "screenshots": [],
     "url": "https://pacenow.co/",
     "featured": true
@@ -18,7 +18,7 @@
     "tags": "web",
     "technology": "react",
     "language": "javascript",
-    "logo":"/cartrack-web.png",
+    "logo": "/cartrack-web.png",
     "screenshots": [],
     "url": "https://www.cartrack.sg/",
     "featured": true
@@ -30,7 +30,7 @@
     "tags": "web",
     "technology": "react",
     "language": "javascript",
-    "logo":"/gigco-web.png",
+    "logo": "/gigco-web.png",
     "screenshots": [],
     "url": "https://www.gigco.work/",
     "featured": true
@@ -42,7 +42,7 @@
     "tags": "web",
     "technology": "angular",
     "language": "javascript",
-    "logo":"/posse-web.png",
+    "logo": "/posse-web.png",
     "screenshots": [],
     "url": "",
     "featured": true

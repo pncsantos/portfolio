@@ -4,17 +4,10 @@ interface Props {
   title: string;
   color?: string;
   textColor?: string;
-  style?: string;
 }
-function Pill({ title, color, textColor, style }: Props) {
+function Pill({ title, color, textColor }: Props) {
   return (
-    <span
-      className={`bg-${
-        color ? color : "gray-400"
-      } ${style} text-sm text-shadow-sm rounded-lg md:rounded-xl px-3 py-1 ${
-        textColor ? textColor : "text-white"
-      } `}
-    >
+    <span className="bg-gray-400 text-sm text-shadow-sm rounded-lg md:rounded-xl px-3 py-1 text-white">
       {title}
     </span>
   );
