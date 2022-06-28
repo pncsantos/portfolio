@@ -42,15 +42,15 @@ function AboutMe() {
           these days is creating full blown development (Frontend, Backend and
           DevOps).
         </p>
-        <br />
+        <br className="hidden md:flex"/>
         <br />
         <h1 className="text-l font-bold lg:text-4xl">Recent Tech Stacks ⌨️</h1>
         <div className="grid grid-cols-3 grid-flow-row gap-2 auto-rows-auto mt-1 text-xs text-shadow-md md:mt-4">
           <TechLogo logo="/es6.png" title="Javascript (ES6+)" />
           <TechLogo logo="/react.png" title="React | React Native" />
+          <TechLogo logo="/aws.png" width={72} title="AWS" />
           <TechLogo logo="/nodejs.png" title="Node JS" />
           <TechLogo logo="/next.png" title="Next JS" />
-          <TechLogo logo="/aws.png" width={72} title="AWS" />
           <TechLogo logo="/typescript.png" title="Typescript" />
         </div>
         {/* <br />

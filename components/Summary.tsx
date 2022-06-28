@@ -1,3 +1,5 @@
+import Pill from "./Pill";
+
 function Summary() {
   return (
     <div className="!mt-0 p-4 text-white">
@@ -15,7 +17,8 @@ function Summary() {
           <br className="md:hidden" />
           <p className="text-sm md:text-lg font-semibold">Adamson University</p>
           <p className="text-xs md:text-sm">
-            Bachelor of Science in Information Technology (2006 - 2010)
+            Bachelor of Science in Information Technology
+            <br className="flex md:hidden" /> (2006 - 2010)
           </p>
           <p className="text-xs md:text-sm">Graduate with Honours</p>
 
@@ -48,7 +51,10 @@ function Summary() {
             <li>• Manage Product Releases and Deployments</li>
             <li>• Code Reviews</li>
             <li>• Creates performance test and unit test</li>
-            <li>• Applies best practices and latest code standards</li>
+            <li>
+              • Write modern, performant, maintainable code for a diverse array
+              of client and internal projects
+            </li>
             <li>• Mentor junior developers</li>
           </ul>
 
@@ -75,17 +81,27 @@ function Summary() {
             <p className="text-sm md:text-lg font-semibold">Tech Stacks</p>
 
             <ul className="text-xs md:text-sm">
-              <li>Programming Language: Java and Javascript</li>
-              <li>Database: Mongo, Postgre, Mysql, Oracle and Sql server</li>
-              <li>Version Control: Github, Bitbucket, SVN and Tortoise</li>
-              <li>
-                Continuous Integration Tools: Jenkins, Fastlane and AWS
-                CodeBuild
+              <li className="p-1">Programming Language: Java, Javascript</li>
+              <li className="p-1">
+                Database: MongoDB, Postgre, Mysql, Oracle, DynamoDB
               </li>
-              <li>
-                Dev Tools: Postman, Buildkite, Trello, Waffle, Confluence and
-                Jira AWS : [S3, EC2, Route 53, Cloudfront and CodeBuild]
+              <li className="p-1">
+                DevOps CI/CD: Jenkins, Circle CI, Travis CI, AWS CodeBuild
               </li>
+              <li className="p-1">
+                Version Control: Github, Bitbucket, SVN, Tortoise
+              </li>
+              <li className="p-1">
+                Productivity Tools: Jira, Trello, Waffle, Confluence
+              </li>
+              <li className="p-1">
+                Dev Tools: Postman, Swagger, Launch Darkly, Fastlane, Buildkite,
+              </li>
+              <li className="p-1">
+                AWS Tools: EC2, Cloudfront, S3, Route 53, Lambda, ECS, Xray,
+                Dynamo DB
+              </li>
+              <li className="p-1">Design Tools: Figma, Sketch</li>
             </ul>
           </div>
 
@@ -94,19 +110,43 @@ function Summary() {
           <br />
 
           {/* Web */}
+          {/* TODO: separate Java and JS */}
           <div>
-            <p className="text-sm md:text-lg font-semibold">Web Technologies</p>
+            <p className="text-sm md:text-lg font-semibold">
+              JavaScript | Web and API Technologies
+            </p>
             <ul className="text-xs md:text-sm">
-              <li>
-                Frameworks: React.js, Angular.js, Bootstrap, EJB, Play, Spring,
-                Struts
+              <li className="p-1">
+                Frameworks: React.js, Next.js, Node.js, Angular.js
               </li>
-              <li>ORM: Hibernate, Jooq and Ibatis</li>
-              <li>IDE: Eclipse, IntelliJ</li>
-              <li>
-                Tools and Libraries: JQuery, HTML, Bootstrap, Redux, Lint,
-                Webpack, CSS/Less CSS, JBoss, Tomcat Payment Gateway : [Paypal
-                and Stripe SDK]
+              <li className="p-1">IDE: VSCode, Sublime</li>
+              <li className="p-1">
+                JS Tools and Libraries: React Redux, Lint, MobX, Styled
+                Components, Tailwind, Redux Toolkit, Webpack, Material UI,
+                Express, Thunk, Saga, Storybook
+              </li>
+              <li className="p-1">
+                Other tools and libraries: JQuery, HTML, Bootstrap, CSS/Less
+                CSS, Blazemeter
+              </li>
+              <li className="p-1">Payment Gateway: Paypal, Stripe</li>
+            </ul>
+          </div>
+
+          <br />
+          <hr />
+          <br />
+
+          <div>
+            <p className="text-sm md:text-lg font-semibold">
+              Java | Web and Desktop Technologies
+            </p>
+            <ul className="text-xs md:text-sm">
+              <li className="p-1">Frameworks: Spring, Struts, EJB</li>
+              <li className="p-1">IDE: Eclipse, IntelliJ</li>
+              <li className="p-1">ORM: Hibernate, Jooq, Ibatis</li>
+              <li className="p-1">
+                Other tools and libraries: JQuery, HTML, JBoss, Tomcat
               </li>
             </ul>
           </div>
@@ -118,11 +158,12 @@ function Summary() {
           {/* React Native */}
           <div>
             <p className="text-sm md:text-lg font-semibold">
-              Mobile Technologies (Javascript - React Native)
+              Mobile Technologies (JS - React Native)
             </p>
             <ul className="text-xs md:text-sm">
-              <li>Platforms: Android and IOS</li>
-              <li>
+              <li className="p-1">Platforms: Android, IOS</li>
+
+              <li className="p-1">
                 Tools and Libraries: Redux, Redux Thunk, Firebase SDK, Fabric,
                 React Navigation, Deeplinking (Appsflyer) , Push Notifications
                 AWS Amplify, Google Maps and Web Sockets Payment Gateway :
@@ -141,9 +182,11 @@ function Summary() {
               Mobile (Java - Android)
             </p>
             <ul className="text-xs md:text-sm">
-              <li>DB and ORM: Sqlite, Realm and ActiveAndroid</li>
-              <li>IDE: Android Studio and IntelliJ</li>
-              <li>
+              <li className="p-1">
+                DB and ORM: Sqlite, Realm and ActiveAndroid
+              </li>
+              <li className="p-1">IDE: Android Studio and IntelliJ</li>
+              <li className="p-1">
                 Tools and Libraries: Authentication : [Facebook, Google, Twitter
                 and Auth0 SDK] Firebase SDK : [Auhtentication, Database, Remote
                 Config, AdMob] Google SDK : [Maps, Analytics, Authentication,
