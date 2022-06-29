@@ -3,6 +3,7 @@ import AboutMe from "../components/AboutMe";
 import Banner from "../components/Banner";
 import Contacts from "../components/Contacts";
 import FeaturedProjects from "../components/FeaturedProjects";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Summary from "../components/Summary";
 
@@ -29,12 +30,13 @@ const Home = () => {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <Header />
-      <main className="relative pb-24 lg:space-y-24">
+      <main className="relative lg:space-y-24">
         <Banner />
         <AboutMe />
         <Summary />
-        <FeaturedProjects />
+        {/* <FeaturedProjects /> */}
         <Contacts />
+        <Footer />
 
         <section className="md:space-y-24"></section>
       </main>

@@ -3,7 +3,7 @@ interface Props {
   logo: string;
   height?: number;
   width?: number;
-  title: string;
+  title?: string;
 }
 
 function TechLogo({ logo, title, height, width }: Props) {

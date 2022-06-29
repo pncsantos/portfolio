@@ -14,6 +14,13 @@ function Contacts() {
           {`Whether you have a question or just want to say hi, I'll
         try my best to get back to you!`}
         </p>
+        <br />
+        <button
+          className="bg-teal-500 hover:bg-teal-700 text-white text-sm font-bold py-2 px-4 rounded"
+          onClick={() => (location.href = "mailto:santospaulnoel@gmail.com")}
+        >
+          Say Hello!
+        </button>
       </div>
     </div>
   );
