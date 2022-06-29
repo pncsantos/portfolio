@@ -193,6 +193,7 @@
         "playstore": ""
       }
     },
-    "logo": "/gigco-web.png"
+    "logo": "/gigco-web.png",
+    "featured": true
   }
 ]

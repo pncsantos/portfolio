@@ -1,4 +1,8 @@
+import Image from "next/image";
 import TechLogo from "./TechLogo";
+
+import WebProjects from "../data/web-projects.json";
+import MobileProjects from "../data/mobile-projects.json";
 
 function Summary() {
   return (
@@ -222,6 +226,63 @@ function Summary() {
                   </li>
                 </ul>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="flex flex-col px-4 py-2 space-x-8 md:flex-row md:py-4 md:px-8 md:space-x-12">
+        <div className="flex-none w-32 lg:ml-40">
+          <h1>
+            ✨{" "}
+            <b>
+              <u>Projects</u>
+            </b>
+          </h1>
+        </div>
+
+        <div className="flex-wrap">
+          {/* Web */}
+          <>
+            <div className="flex flex-col flex-1 mt-4 sm:mt-0">
+              <p className="text-sm md:text-lg font-semibold">Web</p>
+            </div>
+
+            <div className="py-2 w-full text-center sm:text-base sm:grid sm:grid-flow-col">
+              {WebProjects.filter((f) => f.featured).map((project) => {
+                return (
+                  <div key={project.id} className="py-2 px-4">
+                    <Image
+                      src={project.logo}
+                      alt={project.name}
+                      className={`object-cover cursor-pointer rounded-2xl`}
+                      height="200"
+                      width="200"
+                    />
+                  </div>
+                );
+              })}
+            </div>
+          </>
+          {/* Mobile */}
+          <div className="relative">
+            <div className="flex flex-col flex-1 mt-4 sm:mt-0">
+              <p className="text-sm md:text-lg font-semibold">Mobile</p>
+            </div>
+            <div className="py-2 w-full text-center sm:text-base sm:grid sm:grid-flow-col">
+              {MobileProjects.filter((f) => f.featured).map((project) => {
+                return (
+                  <div key={project.id} className="py-2 px-4">
+                    <Image
+                      src={project.logo}
+                      alt={project.name}
+                      className={`object-cover cursor-pointer rounded-2xl`}
+                      height="200"
+                      width="200"
+                    />
+                  </div>
+                );
+              })}
             </div>
           </div>
         </div>

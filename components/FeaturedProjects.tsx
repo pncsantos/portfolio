@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react";
 
 import WebProjects from "../data/web-projects.json";
 import MobileProjects from "../data/mobile-projects.json";
@@ -44,10 +43,10 @@ function FeaturedProjects() {
             <Pill title="👾 Mobile" />
           </div>
 
-          <div className="py-8 w-full text-center sm:text-base sm:grid sm:grid-flow-col">
+          <div className="py-8 w-full text-center grid grid-flow-col auto-cols-max">
             {MobileProjects.filter((f) => f.featured).map((project) => {
               return (
-                <div key={project.id} className="p-2">
+                <div key={project.id} className="p-2 relative ">
                   <Image
                     src={project.logo}
                     alt={project.name}

@@ -42,7 +42,7 @@ function AboutMe() {
           these days is creating full blown development (Frontend, Backend and
           DevOps).
         </p>
-        <br className="hidden md:flex"/>
+        <br className="hidden md:flex" />
         <br />
         <h1 className="text-l font-bold lg:text-4xl">Recent Tech Stacks ⌨️</h1>
         <div className="grid grid-cols-3 grid-flow-row gap-2 auto-rows-auto mt-1 text-xs text-shadow-md md:mt-4">
@@ -53,11 +53,6 @@ function AboutMe() {
           <TechLogo logo="/next.png" title="Next JS" />
           <TechLogo logo="/typescript.png" title="Typescript" />
         </div>
-        {/* <br />
-        <h1 className="text-l font-bold lg:text-4xl">Contact Details</h1>
-        <p className="max-w-xs text-xs mt-1 text-shadow-md md:mt-4 md:max-w-lg md:text-lg lg:max-w-lg lg:text-lg opacity-60">
-          ✉️ santospaulnoel@gmail.com
-        </p> */}
       </div>
     </div>
   );

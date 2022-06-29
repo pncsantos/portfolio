@@ -1,6 +1,4 @@
 import { useEffect, useState } from "react";
-import { BadgeCheckIcon, SearchIcon } from "@heroicons/react/solid";
-import Link from "next/link";
 import Image from "next/image";
 
 function Header() {

@@ -1,5 +1,3 @@
-import React from "react";
-
 function Contacts() {
   return (
     <div className="flex items-center p-4 !pr-0 md:p-8 md:py-16 !space-x-0 lg:!space-x-0 w-full bg-[#2b2b2b] lg:pr-0 ">
