@@ -105,15 +105,15 @@ function Summary() {
 
           <div className="flex flex-row">
             {/* Javascript */}
-            <div className="flex flex-col flex-1 border border-dashed border-zinc-400 p-2 sm:px-4 rounded-md">
-              <div className="flex text-center items-center">
+            <div className="flex flex-col flex-1">
+              <div className="flex text-center items-center justify-center">
                 <p className="text-sm md:text-lg font-semibold">
                   {"JavaScript"}
                 </p>
                 <TechLogo logo="/javascript.png" />
               </div>
               {/* Web: React */}
-              <div>
+              <div className="border border-dashed border-zinc-400 p-2 sm:px-4 rounded-md">
                 <p className="text-xs md:text-sm font-semibold text-[#ccfbf1] underline">
                   {"Web & API Technologies"}
                 </p>
@@ -142,7 +142,7 @@ function Summary() {
               <br />
 
               {/* Mobile: React Native */}
-              <div>
+              <div className="border border-dashed border-zinc-400 p-2 sm:px-4 rounded-md">
                 <p className="text-xs md:text-sm font-semibold text-[#ccfbf1] underline">
                   {"Mobile : React Native & Ionic"}
                 </p>
@@ -164,14 +164,14 @@ function Summary() {
 
             <div className="w-4 sm:w-10" />
 
-            <div className="flex flex-col flex-1 border border-dashed border-zinc-400 p-2 sm:px-4 rounded-md">
-              <div className="flex text-center items-center">
+            <div className="flex flex-col flex-1">
+              <div className="flex text-center items-center justify-center">
                 <p className="text-sm md:text-lg font-semibold">{"Java"}</p>
                 <TechLogo logo="/java.png" />
               </div>
 
               {/* Web: Java */}
-              <div>
+              <div className="border border-dashed border-zinc-400 p-2 sm:px-4 rounded-md">
                 <p className="text-xs md:text-sm font-semibold text-[#ccfbf1] underline">
                   {"Web & Desktop Technologies"}
                 </p>
@@ -188,7 +188,7 @@ function Summary() {
               <br />
 
               {/* Mobile: Android Java */}
-              <div>
+              <div className="border border-dashed border-zinc-400 p-2 sm:px-4 rounded-md">
                 <p className="text-xs md:text-sm font-semibold text-[#ccfbf1] underline">
                   {"Mobile : Android Native"}
                 </p>
