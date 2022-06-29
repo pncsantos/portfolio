@@ -13,17 +13,13 @@ function Summary() {
           </h1>
         </div>
 
-        <div className="flex-wrap">
-          <br className="md:hidden" />
+        <div className="flex flex-col flex-1 mt-4 sm:mt-0">
           <p className="text-sm md:text-lg font-semibold">Adamson University</p>
           <p className="text-xs md:text-sm">
             Bachelor of Science in Information Technology
             <br className="flex md:hidden" /> (2006 - 2010)
           </p>
           <p className="text-xs md:text-sm">Graduate with Honours</p>
-
-          <br />
-          <hr />
         </div>
       </div>
 
@@ -37,9 +33,8 @@ function Summary() {
           </h1>
         </div>
 
-        <div className="flex-wrap text-xs md:text-sm">
-          <br className="md:hidden" />
-          <ul>
+        <div className="flex flex-col flex-1 mt-4 sm:mt-0">
+          <ul className="text-xs md:text-sm">
             <li>
               • Full blown development and integration for Web and Mobile
               application
@@ -55,9 +50,6 @@ function Summary() {
               of client and internal projects
             </li>
           </ul>
-
-          <br />
-          <hr />
         </div>
       </div>
 
@@ -72,10 +64,8 @@ function Summary() {
         </div>
 
         <div className="flex-wrap">
-          <br className="md:hidden" />
-
           {/* General */}
-          <div>
+          <div className="flex flex-col flex-1 mt-4 sm:mt-0">
             <p className="text-sm md:text-lg font-semibold">Tech Stacks</p>
 
             <ul className="text-xs md:text-sm">
@@ -112,12 +102,10 @@ function Summary() {
           </div>
 
           <br />
-          <hr />
-          <br />
 
           <div className="flex flex-row">
             {/* Javascript */}
-            <div className="flex flex-col flex-1">
+            <div className="flex flex-col flex-1 border border-dashed border-zinc-400 p-2 sm:px-4 rounded-md">
               <div className="flex text-center items-center">
                 <p className="text-sm md:text-lg font-semibold">
                   {"JavaScript"}
@@ -174,9 +162,9 @@ function Summary() {
               </div>
             </div>
 
-            <div className="w-10"/>
+            <div className="w-4 sm:w-10" />
 
-            <div className="flex flex-col flex-1">
+            <div className="flex flex-col flex-1 border border-dashed border-zinc-400 p-2 sm:px-4 rounded-md">
               <div className="flex text-center items-center">
                 <p className="text-sm md:text-lg font-semibold">{"Java"}</p>
                 <TechLogo logo="/java.png" />
